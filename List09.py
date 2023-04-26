@@ -6,4 +6,17 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    return
+    i=0
+    k=0
+    while i<len(list1):
+        if list1[i]==list1[0]:
+           k+=1
+        i+=1
+    if k==len(list1):
+        return True
+    else:
+        return False
+         
+print(main([2,2,3,2]))
+
+    
