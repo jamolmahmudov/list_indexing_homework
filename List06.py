@@ -11,9 +11,8 @@ def main(list1):
     while i<len(list1):
         if list1[i]==1:
             list1[i]=True
-        else :
-            list1[i]=False
         i+=1
+        
     # if list1[0]==1:
     #     list1[0]=True
     # if list1[1]==1:
