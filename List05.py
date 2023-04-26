@@ -7,4 +7,5 @@ def main(list1,i):
     Returns:
         list: return answer
     """
-    return
+    return list1[i]
+print(main([345,'ghj',678,78,23,6,43],4))
